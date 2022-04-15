@@ -1,5 +1,5 @@
 {
-  "name": "vehicle-recognition-server",
+  "name": "face-recognition-server",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -19,5 +19,13 @@
     "express": "^4.17.3",
     "knex": "^1.0.5",
     "pg": "^8.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel99Oshiobughie/Backend-Face-Recognition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuel99Oshiobughie/Backend-Face-Recognition/issues"
+  },
+  "homepage": "https://github.com/samuel99Oshiobughie/Backend-Face-Recognition#readme"
 }

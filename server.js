@@ -12,10 +12,8 @@ const image = require('./controllers/image');
 const db = knex({
     client: 'pg',
     connection: {
-        host : 'postgresql-defined-46056',
-        user : 'Cedar',
-        password : '',
-        database : 'vehicle-recognition'
+        host : process.env.DATABASE_URL,
+        ssl: true,
     }
 });
 
